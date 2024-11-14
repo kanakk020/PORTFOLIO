@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));}
+    
+    
+    .navct { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    background: linear-gradient(to left, rgb(200, 110, 160), rgb(100, 40, 120));   
+   
+}
+  .box1{
+             padding: 8px;
+             border-radius: 100%;
+             border: 1px solid white;
+  }
+ .box2{
+   font-size: 25px;
+ }
+ a{
+
+    color: white ;
+ }
+ .box2:hover{
+  border: 2px solid white;
+ } 
+ .box1:hover{
+   border: 2px solid white ;
+ }
+
+ .pic {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+    margin-left: 15rem ;
+
+  }
+  
+  .pic img {
+    width: min(30rem);
+    height: 30rem;
+    border-radius: 100%;
+    border: 2px solid white;
+    
+  }
+
+  .pic img:hover{
+      border: 6px solid white ;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+   
+    
+   
+  .animated p {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-right: 10rem;
+    margin-left: 12rem;
+    margin-top: 10rem;
+  }
+  
+  /* Animation */
+  .animated p {
+    animation: animated-text 4s linear 1s 1 normal both,
+               animated-cursor 300ms linear 
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 550px;}
+  }
+   
+ /* about */
+ .about{
+  line-height: 2rem;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 13rem;
+  margin-right: 10rem;
+  color: white;
+  margin-top: 30px;
+}
+.about p1{
+  font-family:'Times New Roman', Times, serif;
+
+}
+.about b{
+       font-size: 25px;
+    
+
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+  .all{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Philosopher&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen:wght@400;700&family=Sixtyfour+Convergence&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Philosopher&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+Grund:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Sixtyfour+Convergence&display=swap');
+
+.all li {
+  font-family: "Playwrite DE Grund", cursive;
+  line-height: 3rem;
+}
+ .all h2 h4{
+  font-family: "Playfair Display", serif;
+
+ }
+
+.skill li {
+     line-height: 50px;
+}
+
+.project a{
+  line-height: 50px;
+}
+.certificate a{
+  line-height: 70px;
+}
+a:link{
+      text-decoration: none;
+}
+
+a:hover{
+      border: 2px solid white;
+}
+.all h2:hover{
+    font-weight: 100;
+}
